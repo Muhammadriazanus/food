@@ -399,6 +399,20 @@ body{
         opacity: 0.95;
 
     }
+    .testimonial-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .testimonial-test{
+        /* font-size: 0.5rem; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contact-conntainer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
     .navbar-container input,[type="checkbox"]
     .navbar-container .hamburger-line{
         display: block;
